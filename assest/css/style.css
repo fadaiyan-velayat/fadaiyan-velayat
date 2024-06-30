@@ -1,0 +1,19 @@
+.cur {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#hello {
+  font-size: 30px;
+  width: 50px;
+}
+
+.header {
+  background-image: url(../img/2019-1-18652e96-8c7d-4f88-a671-767bfe705751-638ba79cb55517892550d979.jpeg);
+  height: 500px;
+  background-repeat: no-repeat;
+}
+
+* {
+  margin: 0px 0px;
+}

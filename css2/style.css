@@ -1,0 +1,285 @@
+body {
+  background-color: rgb(245, 245, 245);
+  margin-bottom: 0px;
+}
+
+* {
+  margin: 0px 0px;
+}
+
+.header {
+  width: 100%;
+  margin-top: 0px;
+  top: 0px;
+  position: fixed;
+  background-image: url(../img/dark-gray-color-solid-background-1920x1080.png);
+}
+
+.m {
+  margin-right: 10px;
+}
+
+.nav_header {
+  width: 130px;
+  height: 40px;
+  margin-right: 75px;
+  background-color: black;
+  color: white;
+  margin-top: 32px;
+  border: none;
+  border-radius: 8px;
+  transition: 0.4s;
+  font-size: 15px;
+  cursor: pointer;
+  margin-left: 40px;
+  box-shadow: 4px 8px 10px rgb(42, 42, 42);
+}
+
+.nav_header:hover {
+  background-color: white;
+  color: black;
+  border-radius: 22px;
+  box-shadow: 3px 5px 5px black;
+}
+
+.text_about {
+  width: 500px;
+  margin-top: 60px;
+  justify-content: center;
+  text-align: center;
+  justify-self:center;
+  justify-items: center;
+}
+
+.img_school {
+  width: 200px;
+  justify-content: center;
+  text-align: center;
+  justify-self:center;
+  justify-items: center;
+  height: 300px;
+  margin-top: 120px;
+  direction: ltr;
+}
+
+
+
+.border-img {
+  border: none;
+  height: 280px;
+  padding: 2px 2px;
+  border-radius: 12px;
+}
+
+.border-text {
+  border: 2px solid black;
+  height: 280px;
+  padding: 2px 2px;
+  border-radius: 12px;
+  background-color: rgb(33, 37, 37);
+}
+
+.border_navbar {
+  border: 2px solid black;
+}
+
+.border-text {
+  border: 2px solid black;
+  height: 320px;
+  padding: 2px 2px;
+  border-radius: 12px;
+  background-color: rgb(33, 37, 37);
+}
+
+.se-khat {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(23, 23, 23);
+  display: none;
+}
+
+.akh {
+  display: none;
+}
+
+
+
+.index {
+  width: 60px;
+  height: 60px;
+  background-color: rgb(236, 175, 62);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-right: 20px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  position: fixed;
+  box-sizing: border-box;
+  text-decoration: none;
+  padding-top: 15.5px;
+  transition: 0.5s;
+  transition: all .2s ease !important;
+  bottom: 30px;
+  
+}
+
+
+.index:hover{
+transform: scale(1.12);
+}
+
+
+
+.index a {
+  text-decoration: none;
+}
+
+.oh {
+  text-decoration: none;
+  color: black;
+  margin-top: 15px;
+}
+
+.input {
+  justify-content: center;
+  text-align: center;
+  font-family: tahoma;
+  padding: 150px 40px;
+  margin-top: 20px;
+  margin-left: 500px;
+  margin-right: 500px;
+  border-radius: 25px;
+}
+
+.back {
+  background-color: white;
+  font-family: tahoma;
+  border: 2px solid black;
+  box-sizing: border-box;
+  box-shadow: 1px 2px 5px;
+}
+
+.butto {
+  margin-bottom: 60px;
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 3px;
+  border: none;
+  box-sizing: border-box;
+  box-shadow: 1px 2px 1px black;
+  transition: 0.5s;
+}
+
+.butto:active {
+  transform: translateY(4px);
+  box-shadow: 1px 3.5px 6px black;
+}
+
+.val {
+  padding: 15px 10px;
+  background-color: rgb(153, 239, 253);
+  border: 1px solid black;
+  font-size: 16px;
+  border: none;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  box-shadow: 1px 8px 6px;
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+.nav-item a.mar {
+  background-color: black;
+  color: white;
+  border-radius: 6px;
+  width: 120px;
+  text-align: center;
+  margin-bottom: 5px;
+  transition: 0.5s;
+}
+
+.nav-item a:hover {
+  border-radius: 16px;
+  background-color: white;
+  color: black;
+}
+
+.nav-item {
+  margin-left: 20px;
+  direction: ltr;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+index a:hover{
+  color: black;
+  text-decoration: none;
+}
+
+.border_style {
+  margin-top: 170px;
+  height: 300px;
+  padding: 0px 0px;
+  justify-content: center;
+}
+
+@media only screen and (min-width: 992px) {
+  .img_school {
+    margin-right: 100px;
+    
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .img_school {
+    margin-right: 100px;
+    
+  }
+}
+
+
+
+.img {
+  background-color: rgb(228, 228, 228);
+  height:500px ;
+margin-top: 75px;
+justify-content: center;
+text-align: center;
+justify-self:center;
+justify-items: center;
+}
+
+@media screen and (min-width: 320px) {
+  .img_school {
+    height: 200px;
+  }
+
+  .img {
+    height: 700px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .img_school {
+    height: 220px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .img_school {
+    height: 280px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .img_school {
+    height: 280px;
+  }
+}
